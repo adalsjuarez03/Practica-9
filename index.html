@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="Bootstrap/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <title>Practica 9</title>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Mi Página</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link activate" href="#">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Vehículos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Promociones</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <article class="container mt-5">
+        <h1>Bienvenidos a Autos Rapidos</h1>
+        <p>En Autos Rápidos, ofrecemos una amplia gama de vehículos nuevos y usados, 
+            desde compactos hasta SUVs. Nuestro compromiso es brindar vehículos de calidad a precios accesibles.</p>
+
+        <!-- TABLE -->
+        <table class="table table-striped">
+            <thead class="thead-dark">
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Modelo</th>
+                    <th scope="col">Marca</th>
+                    <th scope="col">Precio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>Accord</td>
+                    <td>Honda</td>
+                    <td>$25,000</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Corolla</td>
+                    <td>Toyota</td>
+                    <td>$22,000</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <!-- CARDS -->
+        <div class="row">
+            <!-- Card 1: SUVs -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">SUVs</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Amplio y familiar</h6>
+                        <p class="card-text">Explora nuestra selección de SUVs, ideales para familias que buscan comodidad y espacio.</p>
+                        <a href="#" class="card-link">Ver más</a>
+                    </div>
+                    <!-- Imagen para la card -->
+                    <img src="img/SUVs.jpg" class="card-img-bottom" alt="Imagen de SUVs">
+                </div>
+            </div>
+        
+            <!-- Card 2: Sedanes -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Sedanes</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Eficiencia y estilo</h6>
+                        <p class="card-text">Descubre los sedanes más económicos, con gran rendimiento de combustible y tecnología de punta.</p>
+                        <a href="#" class="card-link">Ver más</a>
+                    </div>
+                    <!-- Imagen para la card -->
+                    <img src="img/Sedanes.jpg" class="card-img-bottom" alt="Imagen de Sedanes">
+                </div>
+            </div>
+        
+            <!-- Card 3: Deportivos -->
+            <div class="col-4">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Deportivos</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">Potencia y velocidad</h6>
+                        <p class="card-text">Para los amantes de la adrenalina, ofrecemos una gama de autos deportivos con diseños modernos y motores potentes.</p>
+                        <a href="#" class="card-link">Ver más</a>
+                    </div>
+                    <!-- Imagen para la card -->
+                    <img src="img/Deportivos.jpg" class="card-img-bottom" alt="Imagen de Deportivos">
+                </div>
+            </div>
+        </div>
+        
+
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <h5>Sobre Nosotros</h5>
+                    <p>Somos líderes en la venta de vehículos nuevos y usados, ofreciendo un servicio confiable y atención personalizada.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Enlaces Rápidos</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white">Inicio</a></li>
+                        <li><a href="#" class="text-white">Vehículos</a></li>
+                        <li><a href="#" class="text-white">Promociones</a></li>
+                        <li><a href="#" class="text-white">Contacto</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contacto</h5>
+                    <ul class="list-unstyled">
+                        <li><i class="fas fa-map-marker-alt"></i> Calle Principal 456</li>
+                        <li><i class="fas fa-phone"></i> +1 234 567 890</li>
+                        <li><i class="fas fa-envelope"></i> ventas@autosrapidos.com</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row mt-3">
+                <div class="col text-center">
+                    <p>&copy; 2024 Autos Rápidos. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <!-- Optional JavaScript for Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/js/all.min.js"></script>
+</body>
+</html>
